@@ -1,3 +1,4 @@
+
 /**
  * app.js
  * Entry point file for scc-asgn-api application
@@ -35,4 +36,4 @@ app.get('/', (req, res) => res.send('Hello World with Express'));
 
 app.listen(port, function () {
     console.info("Running scc-asgn-api on port " + port);
-});
+})
